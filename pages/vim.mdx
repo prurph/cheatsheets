@@ -1,0 +1,84 @@
+# Vim
+
+## Telescope Shortcuts
+
+| Shortcut | Action                                               |
+| -------- | ---------------------------------------------------- |
+| ⌃n ↓     | next item                                            |
+| ⌃p ↑     | previous item                                        |
+| j k      | next/previous (normal mode)                          |
+| H M L    | high/middle/low (normal mode)                        |
+| gg G     | first/last item (normal mode)                        |
+| ⌃x       | split                                                |
+| ⌃v       | vsplit                                               |
+| ⌃t       | new tab                                              |
+| ⌃u       | scroll preview up                                    |
+| ⌃d       | scroll preview down                                  |
+| ⌃/       | show mappings (insert mode)                          |
+| ?        | show mappings (normal mode)                          |
+| ⌃c       | close telescope                                      |
+| ⎋        | close telescope (normal mode)                        |
+| ⇥        | toggle selection and move to next selection          |
+| ⇧⇥       | toggle selection and move to prev selection          |
+| ⌃q       | send all items not filtered to quickfixlist (qflist) |
+| ⌥q       | send all selected items to qflist                    |
+
+## LSP Shortcuts
+
+- Double-tap hover to move into popup (eg to execute actions therein)
+
+| Shortcut            | Action                           |
+| ------------------- | -------------------------------- |
+| gD                  | declaration                      |
+| gd                  | definition                       |
+| K                   | hover                            |
+| gi                  | implementation                   |
+| gr                  | references                       |
+| gt                  | type definition                  |
+| gl                  | hover diagnostic (show in popup) |
+| \<leader\> rf       | rename ("refactor")              |
+| \<leader\> la       | code action                      |
+| \<leader\> lh or ⌃p | signature help ("parameters")    |
+| \<leader\> lD       | search diagnostics               |
+| \<leader\> lS       | search symbols                   |
+| \<leader\> lR       | search references                |
+| \[d                 | prev diagnostic                  |
+| \]d                 | next diagnostic                  |
+
+## Trouble.nvim Shortcuts
+
+- Added based on suggestions in https://github.com/folke/trouble.nvim#commands
+
+| Shortcut      | Action                            |
+| ------------- | --------------------------------- |
+| \<leader\> xx | toggle trouble                    |
+| \<leader\> xw | workspace diagnostics             |
+| \<leader\> xd | document diagnostics              |
+| \<leader\> xl | loclist                           |
+| \<leader\> xq | quickfix                          |
+| gR            | LSP references                    |
+
+## NvimTree Shortcuts
+
+- **When focused use `g?` to see shortcuts**
+- Focus with `<leader> e` open with `<C-n>`
+- In Vim `:h nvim-tree-default-mappings`
+
+| Shortcut | Action                |
+| -------- | --------------------- |
+| ⌃x       | open horizontal split |
+| ⌃v       | open vertical split   |
+
+## Nvim-cmp Shortcuts
+
+- These are set in `/lua/plugins/configs/cmp.lua` and in `/lua/custom/plugins/rust-tools.lua`
+- Other options exist I haven't yet bound
+
+| Shortcut | Action                    |
+| -------- | ------------------------- |
+| K        | trigger hover             |
+| ⌃␣       | open completions (insert) |
+| ⌃p/n     | prev/next item            |
+| ⌃d/f     | scroll docs back/forward  |
+| ⌃e       | close completions         |
+
